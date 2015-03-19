@@ -1,0 +1,8 @@
+
+<h3> <%- @data.title %> </h3>
+<% for link in @message: %>
+  <p>User Name: <%- link.name %></p>
+  <p>User E-mail: <%- link.email %></p>
+  <p>User Description: <%- link.description %></p>
+  <p>User Age: <%- link.age %></p>
+<% end %>
